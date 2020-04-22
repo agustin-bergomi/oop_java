@@ -1,0 +1,28 @@
+class Main{
+
+	public static void main(String[] args){
+		
+		Mouse m1 = new Mouse();
+		
+			
+	}
+}
+
+class Mouse{
+	String marca;
+	float precio;
+	
+	public void apuntar(){
+	}
+	
+	public static void clickear(){
+	}
+	
+	public static void mover(String archivoOrigen, Strting archivoDestino){
+	System.out.println("Se movio desde "+archivoOrigen+"hasta: "+ archivoDestino);
+	}
+
+}
+
+class Monitor{
+}
