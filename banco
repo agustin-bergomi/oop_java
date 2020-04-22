@@ -1,0 +1,40 @@
+class Main {
+	public static void main (String[] args) {
+	
+	CajaDeAhorro a1 = new CajaDeAhorro();
+
+  a1.saldo=1000;
+  a1.informarSaldo();
+  
+  a1.extraer(145);
+	
+	System.out.println("Fin del programa");
+	}
+}
+
+abstract class Cuenta{
+	float saldo;
+	String nroCta;
+
+	//metodos
+	public void informarSaldo(){
+		System.out.println(saldo);
+	}
+	public void extraer(float extraccion){
+		float saldoFinal=saldo-extraccion;
+		System.out.println(saldoFinal);
+	}
+}
+
+class CajaDeAhorro extends Cuenta{
+}
+
+class CuentaCorriente extends Cuenta{
+}
+
+class PlazoFijo extends Cuenta{
+	public void extraer(float extraccion){
+		float saldoFinal=saldo-extraccion;
+		System.out.println(saldoFinal);
+	}
+}
