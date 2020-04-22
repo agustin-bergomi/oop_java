@@ -1,0 +1,57 @@
+class Main
+	public static void main(String
+
+//para crear un objeto
+
+//creo un metodo constructor de la clase auto y creo al mismo tiempo un objeto de clase auto llamado a
+
+Auto a = new Auto();
+
+//creo solo el constructor
+//Auto = new Auto();
+
+//creo solo un objeto
+//Auto a = new Auto();
+
+//crear una clase
+
+class Vehiculo {
+//atributos
+int cantRuedas;
+//metodos
+System.out.println("Soy un vehiculo");
+}
+
+class Auto{
+//atributos
+int cantRuedas;
+String color;
+//metodos
+}
+
+class Barco{
+//atributos
+int cantVelas;
+bool motor;
+bool cascoMadera;
+
+//metodos
+System.out.println("")
+}
+
+class Bicicleta{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
