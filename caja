@@ -1,0 +1,33 @@
+class Main {
+  public static void main(String[] args) {
+
+	Caja a1 = new Caja();
+	
+	a1.saldo=1000;
+	a1.informarSaldo();
+	
+  Caja a2 = new Caja();
+
+  a2.saldo=2000;
+  a2.informarSaldo();
+
+  Caja nuevaCaja = new Caja();
+  nuevaCaja.saldo = 10345;
+  nuevaCaja.informarSaldo();
+	
+	}
+}
+
+
+
+
+
+class Caja{
+//atributos
+int saldo;
+
+//metodos
+public void informarSaldo(){
+	System.out.println("El saldo es: " + saldo);
+	}
+}
