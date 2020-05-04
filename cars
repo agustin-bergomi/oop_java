@@ -1,0 +1,27 @@
+class Main {
+  public static void main(String[] args) {
+    Car porsche = new Car();
+    Car holden = new Car();
+
+    porsche.setModel("carrera");
+    System.out.println(porsche.getModel());
+  }
+}
+
+class Car {
+
+  private int doors;
+  private int wheels;
+  private String model;
+  private String engine;
+  private String colour;
+
+  public void setModel(String model)  {
+    this.model=model;
+  }
+
+  public String getModel(){
+    return this.model=model;
+  }
+
+}
