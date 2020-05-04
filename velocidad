@@ -1,0 +1,65 @@
+class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+    // creo objeto Auto
+    Auto a = new Auto();
+
+    //seteo una velocidad inicial
+    a.setVelocidad(50);
+
+    a.getVelocidad();
+    //imprimir la velocidad
+    a.imprimirVelocidad();
+
+    //ejecuto el metodo acelerar
+    a.acelerar();
+    a.imprimirVelocidad();
+
+    //acelero con velocidad
+    a.acelerar(30);
+    a.imprimirVelocidad();
+
+    a.acelerar(50,true);
+    a.imprimirVelocidad();
+
+  }
+}
+
+
+class Auto {
+  private int velocidad;
+
+  void acelerar(){
+    velocidad = velocidad + 10;
+  }
+
+  void acelerar(int v){
+    velocidad = velocidad + v;
+
+  }
+
+  void acelerar(int v, boolean nitro){
+    if (nitro==true){
+      acelerar(v * 2);
+    } else {
+      acelerar(v);
+    }
+  }
+
+  void imprimirVelocidad(){
+    System.out.println("La velocidad: " + velocidad);
+  }
+
+  public int getVelocidad(){
+    return this.velocidad=velocidad;
+  }
+
+  public void setVelocidad(int velocidad){
+    this.velocidad=velocidad;
+  }
+  
+    
+  }
+
+
+
