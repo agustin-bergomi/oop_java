@@ -1,0 +1,13 @@
+class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+  
+  int[] values = {3,5,234};
+  System.out.println(values[2]);
+  
+  int[][] grid={{3,5,345},{123,345}};
+  System.out.println(grid[1][1]);
+  System.out.println(grid[0][2]);
+
+  }
+}
