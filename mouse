@@ -4,7 +4,7 @@ class Main{
 		
 		Mouse m1 = new Mouse();
 		
-			
+    
 	}
 }
 
@@ -18,7 +18,7 @@ class Mouse{
 	public static void clickear(){
 	}
 	
-	public static void mover(String archivoOrigen, Strting archivoDestino){
+	public static void mover(String archivoOrigen, String archivoDestino){
 	System.out.println("Se movio desde "+archivoOrigen+"hasta: "+ archivoDestino);
 	}
 
