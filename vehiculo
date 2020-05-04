@@ -3,7 +3,7 @@ class Main
 
 //para crear un objeto
 
-//creo un metodo constructor de la clase auto y creo al mismo tiempo un objeto de clase auto llamado a
+//creo un objeto de clase auto llamado a
 
 Auto a = new Auto();
 
